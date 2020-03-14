@@ -236,6 +236,10 @@ p {
   color: #888;
 }
 
+.sec-para {
+  font-weight: bold;
+}
+
 .icon {
   position: relative;
   height: 48px;
@@ -243,6 +247,21 @@ p {
   float: left;
   margin-top: 14px;
   margin-bottom: 20px;
+}
+
+.thumbnail {
+  position: relative;
+  /* height: 48px; */
+  width: 55px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */ 
+}
+
+.thumbnail i {
+  font-size: 35px;
 }
 
 .icon i {
@@ -257,6 +276,7 @@ p {
 h3.txt-tl {
   font-size: 16px;
   line-height: 1;
+  font-weight: bold;
 }
 
 /****/
