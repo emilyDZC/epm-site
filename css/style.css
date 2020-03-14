@@ -7,20 +7,25 @@
 
 body {
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -33,8 +38,13 @@ table {
   padding: 60px 0px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
 }
 
 /**media Queries**/
@@ -53,39 +63,42 @@ h1, h2, h3, h4, h5, h6 {
   background-color: RGBA(0, 0, 0, 0.41);
 }
 
-.nav>li>a {
+.nav > li > a {
   padding: 0px;
 }
 
 .navbar-brand {
   padding: 0px;
   height: inherit;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .navbar-default .navbar-brand {
   color: #fff;
   font-size: 34px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 700;
   letter-spacing: 2px;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #FFD34E;
-  text-transform: uppercase;
-	background-color: transparent;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #e6194c;
+  /* text-transform: uppercase; */
+  background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   color: #fff;
   padding: 10px 20px;
-  text-transform: uppercase;
-	background-color: transparent;
+  /* text-transform: uppercase; */
+  background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: #FFD34E;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #e6194c;
 }
 
 .navbar-fixed-top {
@@ -94,10 +107,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-	.navbar-collapse {
-		background: rgba(0, 0, 0, 0.8);
-		border-top: 0;
-	}
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 0;
+  }
 }
 
 .top-nav-collapse {
@@ -117,36 +130,36 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 38px;
   letter-spacing: 4px;
   opacity: 1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .sub-title {
   font-size: 50px;
   font-weight: 700;
-  color: #fff;
+  color: #e6194c;
   line-height: 71px;
   letter-spacing: 4px;
   opacity: 1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .title {
-  font-size: 123px;
+  font-size: 100px;
   font-weight: 700;
   color: #fff;
   line-height: 88px;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   opacity: 1;
-  text-transform: uppercase;
-  padding: 25px 0px;
+  /* text-transform: uppercase; */
+  padding: 25px;
 }
 
 .btn-submit {
-  background: #FFD34E;
+  background: #e6194c;
   border: 0px;
   display: inline-block;
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding: 10px 40px;
   font-weight: normal;
   border-radius: 0px;
@@ -160,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   margin-top: 25px;
-  border: 2px solid #FFD34E;
+  border: 2px solid #e6194c;
 }
 
 .btn-submit:hover {
@@ -174,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta-info {
-  border: 5px solid #FFD34E;
+  border: 5px solid #e6194c;
   padding: 40px 0px;
 }
 
@@ -255,7 +268,7 @@ h3.txt-tl {
 }
 
 .bg-image-2 {
-  background: url('../img/cta-banner.jpg') no-repeat center fixed;
+  background: url("../img/cta-banner.jpg") no-repeat center fixed;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
@@ -325,7 +338,9 @@ h3.txt-tl {
   margin-bottom: 15px;
 }
 
-#sendmessage.show, #errormessage.show, .show {
+#sendmessage.show,
+#errormessage.show,
+.show {
   display: block;
 }
 
@@ -337,11 +352,12 @@ h3.txt-tl {
 .btn-send {
   border-radius: 0px;
   color: #000;
-  background-color: #FFD34E;
+  background-color: #e6194c;
 }
 
-a, a:hover {
-  color: #FFD34E;
+a,
+a:hover {
+  color: #e6194c;
 }
 
 .cont-title {
@@ -406,7 +422,8 @@ a, a:hover {
   color: #666;
 }
 
-.link-dec, .link-dec:hover {
+.link-dec,
+.link-dec:hover {
   color: #000;
 }
 
@@ -419,17 +436,22 @@ a, a:hover {
 }
 
 @media (min-width: 20px) and (max-width: 450px) {
-  .navbar-toggle:hover, .navbar-toggle {
+  .navbar-toggle:hover,
+  .navbar-toggle {
     background-color: #fff;
     color: #000;
   }
   .navbar-toggle {
     margin-top: 0px;
   }
-  .navbar-default .navbar-nav>li>a {
+  .navbar-default .navbar-nav > li > a {
     text-align: center;
   }
-  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
   }
   .top-title {
     font-size: 15px;
